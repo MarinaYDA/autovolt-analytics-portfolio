@@ -22,10 +22,3 @@ Projects:
      identify high-risk segments.
    - Tools: Python (pandas, scikit-learn, XGBoost), logistic regression, decision trees,
      random forest, gradient boosting, cross-validation, model evaluation.
-
-You are encouraged to:
-- Treat each project as a separate case study.
-- Build SQL queries, Python notebooks, Excel analyses, and dashboards.
-- Document your assumptions, cleaning rules, and final recommendations.
-- Make it clear in your portfolio that this is synthetic AI-generated data,
-  not real company data.
