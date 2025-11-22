@@ -1,0 +1,11 @@
+Project 2 – Service Operations Messy Data (raw dataset)
+File: project2_operations_messy_raw.csv
+
+This is a deliberately messy version of the Project 1 dataset, used to practice data cleaning.
+
+Messiness includes:
+- Inconsistent vehicle_brand strings (different casing, spelling, extra spaces).
+- job_date stored as strings with multiple formats (YYYY-MM-DD, DD/MM/YYYY, MM-DD-YYYY).
+- Random missing values in vehicle_model, battery_type, and region.
+- Duplicate logical jobs (rows copied with new job_id).
+Column meanings mirror Project 1; your task is to clean and standardize this into an analysis-ready table.

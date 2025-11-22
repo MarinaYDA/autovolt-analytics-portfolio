@@ -1,0 +1,23 @@
+Project 1 – Pricing & Margin Analysis (clean dataset)
+File: project1_pricing_margin_clean.csv
+
+Each row = one completed job at a fictional hybrid-battery service company.
+
+Columns:
+- job_id (int): Unique identifier for the job.
+- job_date (datetime): Date of the job.
+- vehicle_brand (str): Vehicle brand (Toyota, Honda, Ford, etc.).
+- vehicle_model (str): Specific hybrid model.
+- region (str): Region of the job (North, South, East, West).
+- job_type (str): Type of job ("Install", "Diagnostic", "Warranty_Replacement").
+- battery_type (str): Battery category ("NiMH_Standard", "NiMH_Premium", "LiIon_Standard", "LiIon_Premium").
+- is_mobile (int 0/1): Whether the job was mobile service.
+- parts_cost (float): Cost of parts in USD.
+- labor_hours (float): Labor hours spent on the job.
+- hourly_rate (int): Labor hourly rate in USD.
+- travel_cost (float): Travel cost for mobile jobs.
+- discount_pct (float): Discount percentage applied (0–0.2).
+- total_price (float): Total price charged to customer.
+- margin (float): total_price minus all costs (parts + labor + travel).
+- customer_id (int): Synthetic customer identifier.
+- is_repeat_customer (int 0/1): Whether the customer is a repeat customer.

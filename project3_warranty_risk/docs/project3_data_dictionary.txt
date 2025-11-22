@@ -1,0 +1,14 @@
+Project 3 – Warranty Risk Modeling (classification dataset)
+File: project3_warranty_risk.csv
+
+Subset of Project 1 focusing only on Install jobs, with additional features and a synthetic failure label.
+
+Each row = one installation job.
+
+Columns (in addition to those in Project 1):
+- vehicle_age_years (float): Age of the vehicle at install time.
+- mileage_at_install (float): Vehicle mileage at install time.
+- avg_temp_c (float): Approximate average climate temperature in the region.
+- failed_within_1y (int 0/1): Synthetic label indicating whether the battery failed within 1 year.
+- (All other fields same meaning as Project 1).
+Use this dataset to practice logistic regression, decision trees, random forest, and XGBoost, including cross-validation and model evaluation.
